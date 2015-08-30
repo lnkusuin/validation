@@ -15,9 +15,9 @@ use JP\Grampus\Validation\Validator;
 
 //ダミーデータ
 $q = array(
-  'name'      => 'vogaro',
+  'name'      => 'taro',
   'password'  => 'hogehoge',
-  'email'     => 'hogehoge@vogaro.co.jp'
+  'email'     => 'hogehoge@taro.co.jp'
 );
 
 //検証クラスの初期化
@@ -54,9 +54,9 @@ use JP\Grampus\Validation\Validator;
 
 //ダミーデータ
 $q = array(
-  'name'      => 'vogaro',
+  'name'      => 'taro',
   'password'  => 'hogehoge',
-  'email'     => 'hogehoge@vogaro.co.jp'
+  'email'     => 'hogehoge@taro.co.jp'
 );
 
 $isFails = Validator::make()
@@ -92,7 +92,7 @@ use JP\Grampus\Validation\Validator;
 
 //ダミーデータ
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -111,7 +111,7 @@ use JP\Grampus\Validation\Validator;
 
 //ダミーデータ
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -130,7 +130,7 @@ use JP\Grampus\Validation\Validator;
 
 //ダミーデータ
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -148,7 +148,7 @@ $validator->set($q['name'], '会社名')-> degit()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -166,7 +166,7 @@ $validator->set($q['name'], '会社名')-> alpha()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -185,7 +185,7 @@ $validator->set($q['name'], '会社名')-> alphaNumeric()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -203,7 +203,7 @@ $validator->set($q['name'], '会社名')-> tel()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -221,7 +221,7 @@ IPアドレスであることを検証する
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -239,7 +239,7 @@ urlであることを検証する
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -257,7 +257,7 @@ $validator->set($q['name'], '会社名')-> ip()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -275,7 +275,7 @@ $validator->set($q['name'], '会社名')-> dateFormat()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -293,7 +293,7 @@ $validator->set($q['name'], '会社名')-> same()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -311,7 +311,7 @@ $validator->set($q['name'], '会社名')-> zenkaku()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -329,7 +329,7 @@ $validator->set($q['name'], '会社名')-> hiragana()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -348,7 +348,7 @@ $validator->set($q['name'], '会社名')-> hiragana()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -367,7 +367,7 @@ $validator->set($q['name'], '会社名')-> tokenIOS()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -388,7 +388,7 @@ $validator->set($q['name'], '会社名')-> tokenAndroid()->end();
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $validator = Validator::make();
@@ -407,7 +407,7 @@ $validator->set($q['name'], '会社名')-> custom(function(){
 use JP\Grampus\Validation\Validator;
 
 $q = array(
-  'name'      => 'Vogaro株式会社',
+  'name'      => 'taro株式会社',
 );
 
 $custom = function($v){
