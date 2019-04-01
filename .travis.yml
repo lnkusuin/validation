@@ -5,4 +5,4 @@ sudo: false
 php:
     - 7.3
 
-script: make test
+script: make install && make test
