@@ -1,10 +1,12 @@
 <?php
 namespace JP\Grampus\Validation;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * Ruleクラスのテスト
  */
-class ValidatorTest extends \PHPUnit_Framework_TestCase
+class ValidatorTest extends TestCase
 {
     /**
      * 検証が成功したことを確認する

@@ -138,8 +138,8 @@ class Rule{
     */
     public function email($message = 'の書式が正しくありません。')
     {
-        $pat = "^[0-9a-zA-Z_\.\-]+@[0-9a-zA-Z][0-9a-zA-Z\.\-]+$";
-        if ( !ereg( $pat, $this->value ) ) {
+        $pat = "/^[0-9a-zA-Z_\.\-]+@[0-9a-zA-Z][0-9a-zA-Z\.\-]+$/";
+        if ( !preg_match( $pat, $this->value ) ) {
             $this->throws($this->title . $message);
         }
 
